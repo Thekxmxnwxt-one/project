@@ -1,0 +1,30 @@
+.brand-tax-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6; /* ความสูงบรรทัด */
+}
+
+.shipping-title {
+    text-align: center;
+    font-size: 32px; /* ขนาดตัวอักษร */
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.shipping-note {
+    font-size: 16px;
+    color: #555; /* สีเทากลาง */
+    margin-bottom: 5px; /* ระยะห่างระหว่างรายการ */
+}
+.tax-section ul {
+    list-style-type: none; /* ลบจุดหรือหมายเลข */
+    padding-left: 0; /* เอาระยะห่างจากด้านซ้ายออก */
+}
+
+.tax-section ul li {
+    font-size: 16px;
+    color: #555; /* สีข้อความ */
+    margin-bottom: 10px; /* ระยะห่างระหว่างข้อความ */
+}

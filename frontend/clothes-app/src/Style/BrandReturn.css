@@ -1,0 +1,44 @@
+.return-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+.return-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.return-section {
+    margin-bottom: 30px;
+    text-align: left; /* ชิดซ้ายเหมือนในภาพแรก */
+}
+
+.return-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.return-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.return-section ul {
+    padding-left: 20px;
+    list-style-type: disc; /* ใช้จุดแทนเลข */
+}
+
+.return-section ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,113 @@
+/* LocationPage.css */
+  
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 1.75rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .search-container {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .faq-search input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .faq-search button {
+    background-color: #090203;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .faq-search button:hover {
+    background-color: #090203;
+  }
+  
+  .dropdown-container {
+    margin-top: 10px;
+  }
+  
+  .dropdown-container label {
+    font-size: 1rem;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .dropdown-container select {
+    width: 20%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .content-container {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .map-container {
+    width: 50%;
+    height: 400px;
+    margin-right: 20px;
+  }
+  
+  .branch-list {
+    width: 50%;
+  }
+  
+  .branch-list h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .branch-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .branch-list li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .branch-list li strong {
+    color: #090203;
+  }
+  

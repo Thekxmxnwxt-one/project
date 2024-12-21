@@ -1,0 +1,68 @@
+.about-container {
+    background-color: #f9f9f9; /* พื้นหลังสีเทาอ่อน */
+    padding: 25px; /* ระยะห่างภายในกรอบ */
+    margin-top: 20px; /* ระยะห่างจากด้านบน */
+    border-radius: 5px; /* มุมโค้งเล็กน้อย */
+    width: calc(100% + 200px); /* ขยายความกว้างออกทั้งซ้ายและขวา */
+    margin-left: -90px; /* ดึงขอบซ้ายออกไป */
+    margin-right: -100px; /* ดึงขอบขวาออกไป */
+    box-sizing: border-box;
+}
+
+.about-content-wrapper {
+    display: flex;
+    justify-content: flex-start; /* จัดคอลัมน์ให้อยู่ทางซ้ายโดยไม่กระจายระยะห่าง */
+    gap: 100px; /* ระยะห่างระหว่างคอลัมน์ */
+    padding-left: 50px; /* เพิ่มระยะห่างจากขอบซ้าย */
+}
+
+.about-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about-links {
+    list-style-type: none; /* ลบสัญลักษณ์ bullet */
+    padding-left: 0;
+    margin: 0;
+}
+
+.about-links li {
+    margin-bottom: 5px;
+}
+
+.about-links li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.about-links li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #808080; /* พื้นหลังสีเทา */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #555; /* เปลี่ยนสีพื้นหลังเมื่อ hover */
+}

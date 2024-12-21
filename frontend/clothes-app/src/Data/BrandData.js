@@ -1,0 +1,22 @@
+export const brands = [
+    { id: 1, brand: 'bossini', image: '/images-logo/brand-bossini.jpg' },
+    { id: 2, brand: 'Champion', image: '/images-logo/brand-champion.png' },
+    { id: 3, brand: 'CPS', image: '/images-logo/brand-cps.jpg' },
+    { id: 4, brand: 'ELLE', image: '/images-logo/brand-elle.jpg' },
+    { id: 5, brand: 'GQ', image: '/images-logo/brand-gq.png' },
+    { id: 6, brand: 'Jaspal', image: '/images-logo/brand-jaspal.jpg' },
+    { id: 7, brand: 'MLB', image: '/images-logo/brand-mlb.jpg' },
+    { id: 8, brand: 'Pomelo', image: '/images-logo/brand-pomelo.jpg' },
+    { id: 9, brand: 'Giordano', image: '/images-logo/brand-giordano.png' },
+    { id: 10, brand: 'Lacoste', image: '/images-logo/brand-lacoste.jpg' },
+    { id: 11, brand: 'Uniqlo', image: '/images-logo/brand-uniqlo.png' },
+    { id: 12, brand: 'H&M', image: '/images-logo/brand-hm.png' },
+    { id: 13, brand: 'Zara', image: '/images-logo/brand-zara.png' },
+    { id: 14, brand: 'Fortela', image: '/images-logo/brand-fortela.jpg' },
+    { id: 15, brand: 'Tommy Hilfiger', image: '/images-logo/brand-tommy.jpg' },
+    { id: 16, brand: 'Polo Ralph Lauren', image: '/images-logo/brand-polo.jpg' },
+    { id: 17, brand: 'Alumnus', image: '/images-logo/brand-alumnus.webp' },
+    { id: 18, brand: 'EP', image: '/images-logo/brand-ep.png' },
+    { id: 19, brand: 'lyn around', image: '/images-logo/brand-lyn.jpg' },
+    { id: 20, brand: 'AIIZ', image: '/images-logo/brand-aiiz.jpg' }
+];

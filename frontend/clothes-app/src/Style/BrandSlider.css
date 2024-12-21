@@ -1,0 +1,49 @@
+.brand-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 40px;
+  }
+  
+  .brand-slide {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .brand-item {
+    flex: 1 0 20%;
+    text-align: center; /* จัดกลาง */
+  }
+  
+  .brand-item img {
+    width: 55%; 
+    height: 100%; 
+    border-radius: 50%;
+  }
+  
+  .slide-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #43484D;
+  }
+  
+  .slide-arrow.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .brand-item {
+    display: flex;
+    flex-direction: column; /* จัดเรียงแนวตั้ง */
+    align-items: center; /* จัดกึ่งกลาง */
+  }
+  
+  .brand-name {
+    margin-top: 5px; 
+    font-size: 16px; 
+    color: #43484D; 
+    text-align: center; 
+  }
+  

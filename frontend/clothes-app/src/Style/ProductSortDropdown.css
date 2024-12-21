@@ -1,0 +1,12 @@
+/* เพิ่มการจัดตำแหน่งของ ProductSortDropdown */
+.product-sort-container {
+  position: relative; /* เพิ่มตำแหน่ง relative เพื่อจัดการตำแหน่งในภายหลัง */
+  margin-bottom: 2px; /* เพิ่มระยะห่างจากส่วนด้านล่าง */
+}
+
+.product-sort-dropdown {
+  position: absolute; /* ใช้ตำแหน่ง absolute เพื่อให้สามารถควบคุมตำแหน่งได้ */
+  top: 50; /* ตั้งตำแหน่งให้เริ่มที่ด้านบนสุด */
+  left: 50; /* ตั้งตำแหน่งให้เริ่มที่ด้านซ้ายสุด */
+  z-index: 50; /* เพิ่ม z-index เพื่อให้แน่ใจว่าอยู่เหนือองค์ประกอบอื่น ๆ */
+}
